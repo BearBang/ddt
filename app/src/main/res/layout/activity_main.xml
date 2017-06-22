@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ddt"
+        android:drawablePadding="5dip"
+        android:gravity="center"
+        android:lines="1"
+        android:text="drawableLeft"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/ddt"
+        android:gravity="center"
+        android:lines="1"
+        android:text="drawableRight"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawablePadding="5dip"
+        android:drawableTop="@drawable/ddt"
+        android:gravity="center"
+        android:lines="1"
+        android:text="drawableTop"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableBottom="@drawable/ddt"
+        android:drawablePadding="5dip"
+        android:gravity="center"
+        android:lines="1"
+        android:text="drawableBottom"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+</LinearLayout>
+
+    <!--@drawble/사진이름 하고 넣을 위치는 R L B T 로 선정할 것-->
